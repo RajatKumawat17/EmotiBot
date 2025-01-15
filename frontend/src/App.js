@@ -24,7 +24,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:8000/analyze', {
+      const response = await fetch('https://emotibot.onrender.com', {
         method: 'POST',
         headers: {
           'X-API-Key': 'dyiuoxcuovrjgimjvjiilagspvkfkart', // In production, use environment variables
